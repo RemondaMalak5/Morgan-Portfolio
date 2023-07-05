@@ -1,0 +1,537 @@
+*{
+    box-sizing: border-box;
+}
+
+.home {
+
+
+    background-image: url(../image/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.nav {
+    background-color: rgb(0, 0, 0, 0.9);
+     z-index: 100;
+}
+
+.nav-link {
+    color: fff;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+
+.h1 {
+    font-size: 70px;
+    position: relative;
+}
+
+h1::after {
+    content: "";
+    font-size: 30px;
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    animation: typing 10s infinite;
+    font-size: 30px;
+    margin: 10px;
+
+}
+
+@keyframes typing {
+
+    0%{
+        content: "D|";
+    }
+    1%{
+        content: "De|";
+    }
+    2%{
+        content: "Des|";
+    }
+    3%{
+        content: "Desi|";
+    }
+    4%{
+       content: "Desig|";
+    }
+    5%{
+        content: "Design|";
+    }
+    6%{
+         content: "Designe|";
+    }
+    7%{
+       content: "Designer|";
+    }
+    8%{
+        content: "Designer|";
+    }
+    9%{
+        content: "Designe|";
+    }
+    10%{
+        content: "Design|";
+    }
+    11%{
+        content: "Desig|";
+    }
+    12%{
+        content: "Desi|";
+    }
+    13%{
+        content: "Des|";
+    }
+    15%{
+        content: "De|";
+    }
+
+    18% {
+        content: "De|";
+    }
+
+    19% {
+        content: "Dev|";
+    }
+
+    20% {
+        content: "Deve|";
+    }
+
+    21% {
+        content: "Devel|";
+    }
+
+    22% {
+        content: "Develo|";
+    }
+
+    23% {
+        content: "Develop|";
+    }
+
+    24% {
+        content: "Develope|";
+    }
+
+    25% {
+        content: "Developer|";
+    }
+
+    26% {
+        content: "Developer|";
+    }
+
+    27% {
+        content: "Develope|";
+    }
+
+    28% {
+        content: "Develop|";
+    }
+
+    29% {
+        content: "Develo|";
+    }
+    30%{
+        content: "Devel|";
+    }
+    31%{
+        content: "Deve|";
+    }
+    32%{
+        content: "Dev|";
+    }
+    33%{
+        content: "De|";
+    }
+    34%{
+        content: "D|";
+    }
+    35%{
+        content: "|";
+    }
+    36%{
+        content: "";
+    }
+    39%{
+        content: "";
+    }
+    40%{
+        content: "F|";
+    }
+    41%{
+        content: "Fr|";
+    }
+    42%{
+        content: "Fre|";
+    }
+    43%{
+        content: "Free|";
+    }
+    44%{
+        content: "Freel|";
+    }
+    45%{
+        content: "Freela|";
+    }
+    46%{
+        content: "Freelan|";
+    }
+    47%{
+        content: "Freelanc|";
+    }
+    48%{
+        content: "Freelance|";
+    }
+    49%{
+        content: "Freelancer|";
+    }
+    50%{
+        content: "Freelancer|";
+    }
+    51%{
+        content: "Freelance|";
+    }
+    52%{
+        content: "Freelanc|";
+    }
+    53%{
+        content: "Freelan|";
+    }
+    54%{
+        content: "Freela|";
+    }
+    55%{
+        content: "Freel|";
+    }
+    56%{
+        content: "Free|";
+    }
+    57%{
+        content: "Fre|";
+    }
+    58%{
+        content: "Fr|";
+    }
+    59%{
+        content: "F|";
+    }
+    60%{
+        content: "|";
+    }
+    60%{
+        content: "|";
+    }
+    61%{
+        content: "|";
+    }
+    62%{
+        content: "P|";
+    }
+    63%{
+        content: "Ph|";
+    }
+    64%{
+        content: "Pho|";
+    }
+    65%{
+        content: "Phot|";
+    }
+    66%{
+        content: "Photo|";
+    }
+    67%{
+        content: "Photog|";
+    }
+    68%{
+        content: "Photogr|";
+    }
+    69%{
+        content: "Photogra|";
+    }
+    70%{
+        content: "Photograp|";
+    }
+    71%{
+        content: "Photograph|";
+    }
+    72%{
+        content: "Photographe|";
+    }
+    73%{
+        content: "Photographer|";
+    }
+    74%{
+        content: "Photographer|";
+    }
+    75%{
+        content: "Photographe|";
+    }
+    76%{
+        content: "Photograph|";
+    }
+    77%{
+        content: "Photograp|";
+    }
+    78%{
+        content: "Photogra|";
+    }
+    79%{
+        content: "Photogr|";
+    }
+    80%{
+        content: "Photog|";
+    }
+    81%{
+        content: "Photo|";
+    }
+    82%{
+        content: "Phot|";
+    }
+    83%{
+        content: "Pho|";
+    }
+    84%{
+        content: "Ph|";
+    }
+    85%{
+        content: "P|";
+    }
+    86%{
+        content: "|";
+    }
+}
+
+
+span{
+    font-size: 20px;
+}
+
+.p{
+    font-size: 20px;
+}
+
+h2{
+    position: relative;
+    padding-bottom:  20;
+}
+h2::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 20px;
+    background-color: 0078ff;
+    width: 100px;
+    height: 3px;
+  
+  
+}
+
+.skill1 {
+    background-color: 0078ff;
+    width: 85%;
+    height: 10px;
+    float: left;
+}
+
+
+.skill2 {
+    background-color: #cde1f8;
+    width: 15%;
+    height: 10px;
+    float: left;
+}
+.skill3 {
+    background-color: 0078ff;
+    width: 75%;
+    height: 10px;
+    float: left;
+}
+
+.skill4 {
+    background-color: #cde1f8;
+    width: 25%;
+    height: 10px;
+    float: left;
+}
+.skill5 {
+    background-color: 0078ff;
+    width: 50%;
+    height: 10px;
+    float: left;
+}
+
+.skill6 {
+    background-color: #cde1f8;
+    width: 50%;
+    height: 10px;
+    float: left;
+}
+.skill7 {
+    background-color: 0078ff;
+    width: 90%;
+    height: 10px;
+    float: left;
+}
+
+.skill8 {
+    background-color: #cde1f8;
+    width: 10%;
+    height: 10px;
+    float: left;
+}
+.crl{
+clear: both;    
+}
+
+button{
+    width: 200px;
+    background-color:0078ff ;
+    border-color: transparent;
+    font-size: 20px;
+}
+
+.pragraph{
+ font-size: 20px;
+ 
+}
+i{
+    font-size: 20px;
+    color:0078ff ;
+}
+
+.i{
+    width: 50px;
+    height: 40px;
+    color: black;
+    border-radius: 50 2px 0078ff;
+    
+    
+}
+
+.item{
+    
+    background-image: url(../image/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-position: cover;
+
+}
+.layer{
+    
+    background-color:rgba(11, 11, 245, 0.67) ;
+}
+
+h3{
+    font-size: 40px;
+}
+.img{
+    width: 30px;
+}
+
+.icon{
+    color: grey;
+}
+
+.span{
+    font-size: 16px;
+}
+
+.i1{
+    font-size: 40px;
+}
+
+.card{
+    overflow: hidden;
+}
+.card-img-top{
+    transition: transform 2s;
+    transform: skew()
+    
+}
+ 
+.card-img-top:hover{
+    transform: scale(1.2);
+}
+
+.slider{
+
+    background-image: url(../image/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-position: cover;
+    
+}
+
+.carousel-caption{
+    position: static !important;
+font-size: 20PX;
+
+}
+
+.icoon{
+    width: 100px;
+    height: 100px;
+   border-radius: 50%  ;
+   border: blue  10px  solid;
+   margin: 10px;
+}
+ 
+
+
+.i2{
+    font-size: 40px;
+    color: 000;
+    
+}
+
+.card-body:hover   .icoon{
+    background-color: blue;
+    border:#cde1f8 10px solid ;
+}
+
+.p2{
+    font-size: 17px;
+}
+
+.icoon2{
+    font-size: 30px;
+    color: fff;
+}
+
+.icoon3{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 10px #cde1f8 solid;
+}
+
+.count{
+    background-image: url(../image/counters-bg.jpg);
+
+    background-attachment: fixed;
+}
+ .hr{
+    position: relative;
+    top:100%;
+    left: 48%;
+    width: 50px;
+    height: 5px;
+    background-color: blue;
+ }
+ 
+ .icon4{
+    color: fff;
+    
+ }
+ 
+ .icoon4{
+    width: 45px;
+    height: 45px;
+    background-color: blue;
+    border-radius: 50%;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+ }
